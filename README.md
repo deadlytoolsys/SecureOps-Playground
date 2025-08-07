@@ -40,26 +40,10 @@ fastapi-secure-api/
 
 ---
 
-## 🔧 Setup Instructions
-
-```bash
-# 1. Clone this repo
-git clone https://github.com/YOUR_USERNAME/SecureOps-Playground.git
-cd SecureOps-Playground/fastapi-secure-api
-
-# 2. Create and activate virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
-# 3. Install requirements
-pip install -r requirements.txt
-
-# 4. Run the API server
-uvicorn app.main:app --reload
-```
-
 
 🧪 How to Test
+
+
 Open your browser and go to:
 👉 http://127.0.0.1:8000/docs
 
@@ -74,4 +58,26 @@ Click the green "Authorize" button at the top right
 Paste the token you received (just the JWT)
 
 Access the /secure-data endpoint with token protection
+
+----
+
+## 🔧 Setup Instructions
+
+```bash
+# 1. Clone this repo
+git clone https://github.com/deadlytoolsys/SecureOps-Playground.git
+cd SecureOps-Playground/fastapi-secure-api
+
+# 2. Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# 3. Install requirements
+pip install -r requirements.txt /* wait on this one*/
+
+# 4. Run the API server
+uvicorn app.main:app --reload
+```
+
+
 
